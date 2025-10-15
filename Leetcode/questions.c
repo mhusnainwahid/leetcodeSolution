@@ -3,28 +3,6 @@
 
 // // 268
 // // Missing Numbers
-// int main(){
-//     int size;
-//     printf("Enter the size of an array: ");
-//     scanf("%d", &size);
-//     int arr[size],occ[size];
-//     for(int i = 0; i < size; i++){
-//         occ[i] = 0;
-//         printf("Enter the value of %d: ",i + 1);
-//         scanf("%d", &arr[i]);
-//         occ[arr[i]]++;
-//     }
-//     for(int i = 0; i < size; i++){
-//         if(occ[i] == 0){
-//             printf("The missing number is %d.\n", i);
-//             break;
-//         }
-//     }
-//     return 0;
-// }
-
-#include <stdio.h>
-
 int main() {
     int size;
     printf("Enter the size of array: ");
@@ -81,4 +59,5 @@ int main()
     }
     printf("The max absolute difference is %d.\n", maxAbs);
     return 0;
+
 }
